@@ -56,3 +56,8 @@ All 3 Fuzzers configured in `advanced` guided mode attempted to break 16 invaria
 ### Challenge #9 -> #14
 
 Some additional solvers have been added based upon real-world findings from my private audits.
+
+
+### Calcifer-notes
+
+1. The challenge is to figure out a way so that the reciever balance is equal to 0. 
