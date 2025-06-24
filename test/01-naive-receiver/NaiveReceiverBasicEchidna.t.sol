@@ -23,6 +23,7 @@ contract NaiveReceiverBasicEchidna {
     NaiveReceiverLenderPool pool;
     FlashLoanReceiver receiver;
 
+
     // constructor has to be payable if balanceContract > 0 in yaml config
     constructor() payable {
         // create contracts to be tested

@@ -1,0 +1,16 @@
+seqLen: 25
+testLimit: 10000000000
+
+corpusDir: "./test/01-naive-receiver/coverage-echidna-basic"
+
+# use same prefix as Foundry invariant tests
+prefix: "invariant_"
+
+# instruct foundry to compile tests
+cryticArgs: ["--foundry-compile-all"]
+
+# Add solc arguments to help with path resolution
+solcArgs: "--allow-paths . --base-path ."
+
+# Add remappings to help find source files
+solcRemaps: ["src/=src/"]   
